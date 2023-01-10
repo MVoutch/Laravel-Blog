@@ -1,0 +1,42 @@
+body {
+    background: #000000;
+    color: #ebebeb;
+}
+
+.bg-gray-100, input {
+    background-color: #1c1c1c !important
+}
+
+.bg-gray-200 {
+    background-color: #313131 !important
+}
+
+article:not(.article-page) {
+    background: #101010;
+    background: linear-gradient(180deg, rgb(28, 28, 28) 0%, rgb(16, 16, 16) 20%);
+    box-sizing: border-box;
+}
+
+
+article:not(.article-page):hover {
+    background: #1C1C1C !important;
+    transition: background 0.3s
+}
+
+.article-page {
+    margin-bottom: 250px;
+}
+
+article {
+    width: calc(100% - 10px);
+    margin-top: 20px;
+}
+
+article img {
+    box-shadow: 1px -8px 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+::placeholder {
+    color: #ebebeb !important;
+    opacity: 1; /* Firefox */ !important;
+}
